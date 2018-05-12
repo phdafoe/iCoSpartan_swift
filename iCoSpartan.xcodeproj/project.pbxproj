@@ -1,0 +1,1104 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7E0407CE867D950D853A89EC /* Pods_iCoSpartan.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 950F03A91CE5C9DF2B374C88 /* Pods_iCoSpartan.framework */; };
+		B4F44A59209C94A00079F0CB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4F44A58209C94A00079F0CB /* AppDelegate.swift */; };
+		B4F44A5E209C94A00079F0CB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B4F44A5C209C94A00079F0CB /* Main.storyboard */; };
+		B4F44A60209C94A10079F0CB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B4F44A5F209C94A10079F0CB /* Assets.xcassets */; };
+		B4F44A63209C94A10079F0CB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B4F44A61209C94A10079F0CB /* LaunchScreen.storyboard */; };
+		B4F44A6F209C94F50079F0CB /* spartanLevel1.plist in Resources */ = {isa = PBXBuildFile; fileRef = B4F44A6B209C94F50079F0CB /* spartanLevel1.plist */; };
+		B4F44A70209C94F50079F0CB /* spartanLevel4.plist in Resources */ = {isa = PBXBuildFile; fileRef = B4F44A6C209C94F50079F0CB /* spartanLevel4.plist */; };
+		B4F44A71209C94F50079F0CB /* spartanLevel2.plist in Resources */ = {isa = PBXBuildFile; fileRef = B4F44A6D209C94F50079F0CB /* spartanLevel2.plist */; };
+		B4F44A72209C94F50079F0CB /* spartanLevel3.plist in Resources */ = {isa = PBXBuildFile; fileRef = B4F44A6E209C94F50079F0CB /* spartanLevel3.plist */; };
+		B4F44A75209C95710079F0CB /* calendario.plist in Resources */ = {isa = PBXBuildFile; fileRef = B4F44A73209C95700079F0CB /* calendario.plist */; };
+		B4F44A76209C95710079F0CB /* lugaresEntrenamiento.plist in Resources */ = {isa = PBXBuildFile; fileRef = B4F44A74209C95700079F0CB /* lugaresEntrenamiento.plist */; };
+		B4F44A8F209C95EC0079F0CB /* salto_vertical_1@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B4F44A7A209C95E70079F0CB /* salto_vertical_1@2x.jpg */; };
+		B4F44A90209C95EC0079F0CB /* burpees_militar_2@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B4F44A7B209C95E70079F0CB /* burpees_militar_2@2x.jpg */; };
+		B4F44A91209C95EC0079F0CB /* saltos_cuarta_mov_1@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B4F44A7C209C95E70079F0CB /* saltos_cuarta_mov_1@2x.jpg */; };
+		B4F44A92209C95EC0079F0CB /* dominadas_opcion_1@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B4F44A7D209C95E70079F0CB /* dominadas_opcion_1@2x.jpg */; };
+		B4F44A93209C95EC0079F0CB /* press_hombro_1@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B4F44A7E209C95E80079F0CB /* press_hombro_1@2x.jpg */; };
+		B4F44A94209C95EC0079F0CB /* abdominales_tipo_2@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B4F44A7F209C95E80079F0CB /* abdominales_tipo_2@2x.jpg */; };
+		B4F44A95209C95EC0079F0CB /* fondos_pelota_1@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B4F44A80209C95E80079F0CB /* fondos_pelota_1@2x.jpg */; };
+		B4F44A96209C95EC0079F0CB /* press_hombro_2@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B4F44A81209C95E80079F0CB /* press_hombro_2@2x.jpg */; };
+		B4F44A97209C95EC0079F0CB /* sentadilla_peso_2@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B4F44A82209C95E90079F0CB /* sentadilla_peso_2@2x.jpg */; };
+		B4F44A98209C95EC0079F0CB /* saltos_cuarta_mov_2@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B4F44A83209C95E90079F0CB /* saltos_cuarta_mov_2@2x.jpg */; };
+		B4F44A99209C95EC0079F0CB /* abdominales_tipo_1@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B4F44A84209C95E90079F0CB /* abdominales_tipo_1@2x.jpg */; };
+		B4F44A9A209C95EC0079F0CB /* sentadilla_peso_1@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B4F44A85209C95E90079F0CB /* sentadilla_peso_1@2x.jpg */; };
+		B4F44A9B209C95EC0079F0CB /* fondos_cobra_2@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B4F44A86209C95EA0079F0CB /* fondos_cobra_2@2x.jpg */; };
+		B4F44A9C209C95EC0079F0CB /* flexiones_alterne_brazos_2@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B4F44A87209C95EA0079F0CB /* flexiones_alterne_brazos_2@2x.jpg */; };
+		B4F44A9D209C95EC0079F0CB /* flexiones_alterne_brazos_1@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B4F44A88209C95EA0079F0CB /* flexiones_alterne_brazos_1@2x.jpg */; };
+		B4F44A9E209C95EC0079F0CB /* main_goal_animation_flag_image_ios7@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B4F44A89209C95EA0079F0CB /* main_goal_animation_flag_image_ios7@2x.png */; };
+		B4F44A9F209C95EC0079F0CB /* burpees_militar_1@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B4F44A8A209C95EB0079F0CB /* burpees_militar_1@2x.jpg */; };
+		B4F44AA0209C95EC0079F0CB /* dominadas_opcion_2@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B4F44A8B209C95EB0079F0CB /* dominadas_opcion_2@2x.jpg */; };
+		B4F44AA1209C95EC0079F0CB /* salto_vertical_2@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B4F44A8C209C95EB0079F0CB /* salto_vertical_2@2x.jpg */; };
+		B4F44AA2209C95EC0079F0CB /* fondos_cobra_1@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B4F44A8D209C95EB0079F0CB /* fondos_cobra_1@2x.jpg */; };
+		B4F44AA3209C95EC0079F0CB /* fondos_pelota_2@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B4F44A8E209C95EC0079F0CB /* fondos_pelota_2@2x.jpg */; };
+		B4F44AB5209C96070079F0CB /* biceps_goma_sentado_1@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B4F44AA5209C96030079F0CB /* biceps_goma_sentado_1@2x.jpg */; };
+		B4F44AB6209C96070079F0CB /* saltos_vertical_1@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B4F44AA6209C96030079F0CB /* saltos_vertical_1@2x.jpg */; };
+		B4F44AB7209C96070079F0CB /* biceps_goma_sentado_2@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B4F44AA7209C96030079F0CB /* biceps_goma_sentado_2@2x.jpg */; };
+		B4F44AB8209C96070079F0CB /* fondos_elevados_1@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B4F44AA8209C96040079F0CB /* fondos_elevados_1@2x.jpg */; };
+		B4F44AB9209C96070079F0CB /* pendulo Kettle bell_2@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B4F44AA9209C96040079F0CB /* pendulo Kettle bell_2@2x.jpg */; };
+		B4F44ABA209C96070079F0CB /* press_hombro_45_2@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B4F44AAA209C96040079F0CB /* press_hombro_45_2@2x.jpg */; };
+		B4F44ABB209C96070079F0CB /* abdominales_cuarta_2@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B4F44AAB209C96050079F0CB /* abdominales_cuarta_2@2x.jpg */; };
+		B4F44ABC209C96070079F0CB /* abdominales_cuarta_1@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B4F44AAC209C96050079F0CB /* abdominales_cuarta_1@2x.jpg */; };
+		B4F44ABD209C96070079F0CB /* goma_tubo_detras_espalda_2@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B4F44AAD209C96050079F0CB /* goma_tubo_detras_espalda_2@2x.jpg */; };
+		B4F44ABE209C96070079F0CB /* fondos_elevados_2@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B4F44AAE209C96050079F0CB /* fondos_elevados_2@2x.jpg */; };
+		B4F44ABF209C96070079F0CB /* pushup_triceps_1@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B4F44AAF209C96060079F0CB /* pushup_triceps_1@2x.jpg */; };
+		B4F44AC0209C96070079F0CB /* pushup_triceps_2@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B4F44AB0209C96060079F0CB /* pushup_triceps_2@2x.jpg */; };
+		B4F44AC1209C96070079F0CB /* goma_tubo_detras_espalda_1@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B4F44AB1209C96060079F0CB /* goma_tubo_detras_espalda_1@2x.jpg */; };
+		B4F44AC2209C96070079F0CB /* pendulo Kettle bell_1@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B4F44AB2209C96070079F0CB /* pendulo Kettle bell_1@2x.jpg */; };
+		B4F44AC3209C96070079F0CB /* press_hombro_45_1@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B4F44AB3209C96070079F0CB /* press_hombro_45_1@2x.jpg */; };
+		B4F44AC4209C96070079F0CB /* saltos_vertical_2@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B4F44AB4209C96070079F0CB /* saltos_vertical_2@2x.jpg */; };
+		B4F44AD6209C96290079F0CB /* abdominal_corta_doble_rebote_2@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B4F44AC6209C96250079F0CB /* abdominal_corta_doble_rebote_2@2x.jpg */; };
+		B4F44AD7209C96290079F0CB /* press_militar_1@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B4F44AC7209C96250079F0CB /* press_militar_1@2x.jpg */; };
+		B4F44AD8209C96290079F0CB /* abdominales_elevando_piernas_2@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B4F44AC8209C96250079F0CB /* abdominales_elevando_piernas_2@2x.jpg */; };
+		B4F44AD9209C96290079F0CB /* barbell_row_1@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B4F44AC9209C96260079F0CB /* barbell_row_1@2x.jpg */; };
+		B4F44ADA209C96290079F0CB /* 45_lat_pullDown_1@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B4F44ACA209C96260079F0CB /* 45_lat_pullDown_1@2x.jpg */; };
+		B4F44ADB209C96290079F0CB /* pendulo_kettle_bell_2@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B4F44ACB209C96260079F0CB /* pendulo_kettle_bell_2@2x.jpg */; };
+		B4F44ADC209C96290079F0CB /* abdominales_elevando_piernas_1@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B4F44ACC209C96270079F0CB /* abdominales_elevando_piernas_1@2x.jpg */; };
+		B4F44ADD209C96290079F0CB /* fondos_pie_elevado_1@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B4F44ACD209C96270079F0CB /* fondos_pie_elevado_1@2x.jpg */; };
+		B4F44ADE209C96290079F0CB /* 45_lat_pullDown_2@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B4F44ACE209C96270079F0CB /* 45_lat_pullDown_2@2x.jpg */; };
+		B4F44ADF209C96290079F0CB /* barbell_row_2@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B4F44ACF209C96280079F0CB /* barbell_row_2@2x.jpg */; };
+		B4F44AE0209C96290079F0CB /* pendulo_kettle_bell_1@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B4F44AD0209C96280079F0CB /* pendulo_kettle_bell_1@2x.jpg */; };
+		B4F44AE1209C96290079F0CB /* one_arm_snatch_2@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B4F44AD1209C96280079F0CB /* one_arm_snatch_2@2x.jpg */; };
+		B4F44AE2209C96290079F0CB /* press_militar_2@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B4F44AD2209C96280079F0CB /* press_militar_2@2x.jpg */; };
+		B4F44AE3209C96290079F0CB /* one_arm_snatch_1@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B4F44AD3209C96290079F0CB /* one_arm_snatch_1@2x.jpg */; };
+		B4F44AE4209C96290079F0CB /* abdominal_corta_doble_rebote_1@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B4F44AD4209C96290079F0CB /* abdominal_corta_doble_rebote_1@2x.jpg */; };
+		B4F44AE5209C96290079F0CB /* fondos_pie_elevado_2@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B4F44AD5209C96290079F0CB /* fondos_pie_elevado_2@2x.jpg */; };
+		B4F44AF5209C96460079F0CB /* press_pajaro_mancuernas_1@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B4F44AE7209C96420079F0CB /* press_pajaro_mancuernas_1@2x.jpg */; };
+		B4F44AF6209C96460079F0CB /* press_pajaro_mancuernas_2@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B4F44AE8209C96420079F0CB /* press_pajaro_mancuernas_2@2x.jpg */; };
+		B4F44AF7209C96460079F0CB /* arnold_press_2@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B4F44AE9209C96430079F0CB /* arnold_press_2@2x.jpg */; };
+		B4F44AF8209C96460079F0CB /* alternating_split_jump_2@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B4F44AEA209C96430079F0CB /* alternating_split_jump_2@2x.jpg */; };
+		B4F44AF9209C96460079F0CB /* band_press_alterne_2@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B4F44AEB209C96430079F0CB /* band_press_alterne_2@2x.jpg */; };
+		B4F44AFA209C96460079F0CB /* fondo_band_pushup_1@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B4F44AEC209C96430079F0CB /* fondo_band_pushup_1@2x.jpg */; };
+		B4F44AFB209C96460079F0CB /* fondo_band_pushup_2@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B4F44AED209C96440079F0CB /* fondo_band_pushup_2@2x.jpg */; };
+		B4F44AFC209C96460079F0CB /* press_hombro_rodilla_2@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B4F44AEE209C96440079F0CB /* press_hombro_rodilla_2@2x.jpg */; };
+		B4F44AFD209C96460079F0CB /* arnold_press_1@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B4F44AEF209C96440079F0CB /* arnold_press_1@2x.jpg */; };
+		B4F44AFE209C96460079F0CB /* brand_press_pecho_1@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B4F44AF0209C96440079F0CB /* brand_press_pecho_1@2x.jpg */; };
+		B4F44AFF209C96460079F0CB /* band_press_alterne_1@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B4F44AF1209C96450079F0CB /* band_press_alterne_1@2x.jpg */; };
+		B4F44B00209C96460079F0CB /* brand_press_pecho_2@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B4F44AF2209C96450079F0CB /* brand_press_pecho_2@2x.jpg */; };
+		B4F44B01209C96460079F0CB /* press_hombro_rodilla_1@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B4F44AF3209C96450079F0CB /* press_hombro_rodilla_1@2x.jpg */; };
+		B4F44B02209C96460079F0CB /* alternating_split_jump_1@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B4F44AF4209C96450079F0CB /* alternating_split_jump_1@2x.jpg */; };
+		B4F44B2F209C96720079F0CB /* pamplona@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B4F44B04209C96630079F0CB /* pamplona@2x.png */; };
+		B4F44B30209C96720079F0CB /* canarias@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B4F44B05209C96640079F0CB /* canarias@2x.png */; };
+		B4F44B31209C96720079F0CB /* benejuzaralizante@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B4F44B06209C96640079F0CB /* benejuzaralizante@2x.png */; };
+		B4F44B32209C96720079F0CB /* granollers@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B4F44B07209C96640079F0CB /* granollers@2x.png */; };
+		B4F44B33209C96720079F0CB /* barcelona@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B4F44B08209C96650079F0CB /* barcelona@2x.png */; };
+		B4F44B34209C96720079F0CB /* benidorm@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B4F44B09209C96650079F0CB /* benidorm@2x.png */; };
+		B4F44B35209C96720079F0CB /* laspalmas@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B4F44B0A209C96650079F0CB /* laspalmas@2x.png */; };
+		B4F44B36209C96720079F0CB /* castelldefels@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B4F44B0B209C96660079F0CB /* castelldefels@2x.png */; };
+		B4F44B37209C96720079F0CB /* bierzo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B4F44B0C209C96660079F0CB /* bierzo@2x.png */; };
+		B4F44B38209C96720079F0CB /* palmademallorca@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B4F44B0D209C96660079F0CB /* palmademallorca@2x.png */; };
+		B4F44B39209C96720079F0CB /* zamora@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B4F44B0E209C96660079F0CB /* zamora@2x.png */; };
+		B4F44B3A209C96720079F0CB /* cartagenaespana@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B4F44B0F209C96670079F0CB /* cartagenaespana@2x.png */; };
+		B4F44B3B209C96720079F0CB /* iznajarcordoba@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B4F44B10209C96670079F0CB /* iznajarcordoba@2x.png */; };
+		B4F44B3C209C96720079F0CB /* algarve@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B4F44B11209C96670079F0CB /* algarve@2x.png */; };
+		B4F44B3D209C96720079F0CB /* lanuncia@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B4F44B12209C96670079F0CB /* lanuncia@2x.png */; };
+		B4F44B3E209C96720079F0CB /* viladocondeporto@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B4F44B13209C96680079F0CB /* viladocondeporto@2x.png */; };
+		B4F44B3F209C96720079F0CB /* ciudadreal@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B4F44B14209C96680079F0CB /* ciudadreal@2x.png */; };
+		B4F44B40209C96720079F0CB /* sevilla@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B4F44B15209C96680079F0CB /* sevilla@2x.png */; };
+		B4F44B41209C96720079F0CB /* beniarbeig@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B4F44B16209C96690079F0CB /* beniarbeig@2x.png */; };
+		B4F44B42209C96720079F0CB /* castuera@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B4F44B17209C96690079F0CB /* castuera@2x.png */; };
+		B4F44B43209C96720079F0CB /* alicante@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B4F44B18209C96690079F0CB /* alicante@2x.png */; };
+		B4F44B44209C96720079F0CB /* elcampello@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B4F44B19209C966A0079F0CB /* elcampello@2x.png */; };
+		B4F44B45209C96720079F0CB /* losyebenes@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B4F44B1A209C966A0079F0CB /* losyebenes@2x.png */; };
+		B4F44B46209C96720079F0CB /* canezademanzaneda@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B4F44B1B209C966A0079F0CB /* canezademanzaneda@2x.png */; };
+		B4F44B47209C96720079F0CB /* benissa@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B4F44B1C209C966A0079F0CB /* benissa@2x.png */; };
+		B4F44B48209C96720079F0CB /* alamedadelasagra@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B4F44B1D209C966B0079F0CB /* alamedadelasagra@2x.png */; };
+		B4F44B49209C96720079F0CB /* llavorsilleida@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B4F44B1E209C966B0079F0CB /* llavorsilleida@2x.png */; };
+		B4F44B4A209C96720079F0CB /* madrid@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B4F44B1F209C966B0079F0CB /* madrid@2x.png */; };
+		B4F44B4B209C96720079F0CB /* pinsequezaragoza@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B4F44B20209C966C0079F0CB /* pinsequezaragoza@2x.png */; };
+		B4F44B4C209C96720079F0CB /* sanpedrodepinatar@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B4F44B21209C966C0079F0CB /* sanpedrodepinatar@2x.png */; };
+		B4F44B4D209C96720079F0CB /* telde@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B4F44B22209C966D0079F0CB /* telde@2x.png */; };
+		B4F44B4E209C96720079F0CB /* almeria@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B4F44B23209C966D0079F0CB /* almeria@2x.png */; };
+		B4F44B4F209C96720079F0CB /* santiagodecompostela@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B4F44B24209C966D0079F0CB /* santiagodecompostela@2x.png */; };
+		B4F44B50209C96720079F0CB /* lanzarote@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B4F44B25209C966D0079F0CB /* lanzarote@2x.png */; };
+		B4F44B51209C96720079F0CB /* antellavalencia@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B4F44B26209C966E0079F0CB /* antellavalencia@2x.png */; };
+		B4F44B52209C96720079F0CB /* buitragodelozoya@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B4F44B27209C966E0079F0CB /* buitragodelozoya@2x.png */; };
+		B4F44B53209C96720079F0CB /* samilvigo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B4F44B28209C966F0079F0CB /* samilvigo@2x.png */; };
+		B4F44B54209C96720079F0CB /* bunyol@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B4F44B29209C966F0079F0CB /* bunyol@2x.png */; };
+		B4F44B55209C96720079F0CB /* parquetiernogalvan@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B4F44B2A209C96700079F0CB /* parquetiernogalvan@2x.jpg */; };
+		B4F44B56209C96720079F0CB /* tenerife@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B4F44B2B209C96700079F0CB /* tenerife@2x.png */; };
+		B4F44B57209C96720079F0CB /* pontevedra@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B4F44B2C209C96710079F0CB /* pontevedra@2x.png */; };
+		B4F44B58209C96720079F0CB /* valencia@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B4F44B2D209C96710079F0CB /* valencia@2x.png */; };
+		B4F44B59209C96720079F0CB /* igualada@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B4F44B2E209C96720079F0CB /* igualada@2x.png */; };
+		B4F44B62209CB3EF0079F0CB /* JJMaterialTextfield.m in Sources */ = {isa = PBXBuildFile; fileRef = B4F44B60209CB3EF0079F0CB /* JJMaterialTextfield.m */; };
+		B4F44B65209CB4510079F0CB /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B4F44B64209CB4510079F0CB /* SWRevealViewController.m */; };
+		B4F44B68209CB4800079F0CB /* UIColor+HexColor.m in Sources */ = {isa = PBXBuildFile; fileRef = B4F44B67209CB4800079F0CB /* UIColor+HexColor.m */; };
+		B4F44B6B209CCAFA0079F0CB /* SplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4F44B6A209CCAFA0079F0CB /* SplashViewController.swift */; };
+		B4F44B6D209CCB510079F0CB /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4F44B6C209CCB510079F0CB /* LoginViewController.swift */; };
+		B4F44B6F209CCB5A0079F0CB /* RegistroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4F44B6E209CCB5A0079F0CB /* RegistroViewController.swift */; };
+		B4F44B72209CCD600079F0CB /* ThereAreInternet.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4F44B71209CCD600079F0CB /* ThereAreInternet.swift */; };
+		B4F44B78209CD1660079F0CB /* FormTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4F44B76209CD1650079F0CB /* FormTextView.swift */; };
+		B4F44B79209CD1660079F0CB /* FormTextView.xib in Resources */ = {isa = PBXBuildFile; fileRef = B4F44B77209CD1660079F0CB /* FormTextView.xib */; };
+		B4F44B7B209CD2CC0079F0CB /* ISSignIn.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4F44B7A209CD2CC0079F0CB /* ISSignIn.swift */; };
+		B4F44B7D209CD3270079F0CB /* APIHELPERS.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4F44B7C209CD3270079F0CB /* APIHELPERS.swift */; };
+		B4F44B7F209CD4370079F0CB /* ISEnumation.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4F44B7E209CD4370079F0CB /* ISEnumation.swift */; };
+		B4F44B81209CDA8B0079F0CB /* video_Dos.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = B4F44B80209CDA8A0079F0CB /* video_Dos.mp4 */; };
+		B4F44B8320A070880079F0CB /* APIUTILS.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4F44B8220A070880079F0CB /* APIUTILS.swift */; };
+		B4F44B8720A0720E0079F0CB /* ListaEntrenamientosTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4F44B8620A0720E0079F0CB /* ListaEntrenamientosTableViewController.swift */; };
+		B4F44B8920A073E20079F0CB /* MenuLateralTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4F44B8820A073E20079F0CB /* MenuLateralTableViewController.swift */; };
+		B4F44B8B20A07A440079F0CB /* RateApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4F44B8A20A07A440079F0CB /* RateApp.swift */; };
+		B4F44B8D20A07E500079F0CB /* Nivel1TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4F44B8C20A07E500079F0CB /* Nivel1TableViewController.swift */; };
+		B4F44B8F20A07E580079F0CB /* Nivel2TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4F44B8E20A07E580079F0CB /* Nivel2TableViewController.swift */; };
+		B4F44B9120A07E620079F0CB /* Nivel3TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4F44B9020A07E620079F0CB /* Nivel3TableViewController.swift */; };
+		B4F44B9320A07E6D0079F0CB /* Nivel4TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4F44B9220A07E6D0079F0CB /* Nivel4TableViewController.swift */; };
+		B4F44B9620A087C80079F0CB /* CustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4F44B9520A087C80079F0CB /* CustomCell.swift */; };
+		B4F44B9920A08B4A0079F0CB /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4F44B9720A08B4A0079F0CB /* CustomTableViewCell.swift */; };
+		B4F44B9A20A08B4A0079F0CB /* CustomTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B4F44B9820A08B4A0079F0CB /* CustomTableViewCell.xib */; };
+		B4F44B9C20A0B1A30079F0CB /* DetalleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4F44B9B20A0B1A30079F0CB /* DetalleViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5242FC01695129BE26E00F42 /* Pods-iCoSpartan.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iCoSpartan.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iCoSpartan/Pods-iCoSpartan.debug.xcconfig"; sourceTree = "<group>"; };
+		68DBB738710C32A047DFDA12 /* Pods-iCoSpartan.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iCoSpartan.release.xcconfig"; path = "Pods/Target Support Files/Pods-iCoSpartan/Pods-iCoSpartan.release.xcconfig"; sourceTree = "<group>"; };
+		950F03A91CE5C9DF2B374C88 /* Pods_iCoSpartan.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iCoSpartan.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B4F44A55209C94A00079F0CB /* iCoSpartan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iCoSpartan.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B4F44A58209C94A00079F0CB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B4F44A5D209C94A00079F0CB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B4F44A5F209C94A10079F0CB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B4F44A62209C94A10079F0CB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B4F44A64209C94A10079F0CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B4F44A6B209C94F50079F0CB /* spartanLevel1.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = spartanLevel1.plist; sourceTree = "<group>"; };
+		B4F44A6C209C94F50079F0CB /* spartanLevel4.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = spartanLevel4.plist; sourceTree = "<group>"; };
+		B4F44A6D209C94F50079F0CB /* spartanLevel2.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = spartanLevel2.plist; sourceTree = "<group>"; };
+		B4F44A6E209C94F50079F0CB /* spartanLevel3.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = spartanLevel3.plist; sourceTree = "<group>"; };
+		B4F44A73209C95700079F0CB /* calendario.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = calendario.plist; sourceTree = "<group>"; };
+		B4F44A74209C95700079F0CB /* lugaresEntrenamiento.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = lugaresEntrenamiento.plist; sourceTree = "<group>"; };
+		B4F44A7A209C95E70079F0CB /* salto_vertical_1@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "salto_vertical_1@2x.jpg"; sourceTree = "<group>"; };
+		B4F44A7B209C95E70079F0CB /* burpees_militar_2@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "burpees_militar_2@2x.jpg"; sourceTree = "<group>"; };
+		B4F44A7C209C95E70079F0CB /* saltos_cuarta_mov_1@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "saltos_cuarta_mov_1@2x.jpg"; sourceTree = "<group>"; };
+		B4F44A7D209C95E70079F0CB /* dominadas_opcion_1@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "dominadas_opcion_1@2x.jpg"; sourceTree = "<group>"; };
+		B4F44A7E209C95E80079F0CB /* press_hombro_1@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "press_hombro_1@2x.jpg"; sourceTree = "<group>"; };
+		B4F44A7F209C95E80079F0CB /* abdominales_tipo_2@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "abdominales_tipo_2@2x.jpg"; sourceTree = "<group>"; };
+		B4F44A80209C95E80079F0CB /* fondos_pelota_1@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "fondos_pelota_1@2x.jpg"; sourceTree = "<group>"; };
+		B4F44A81209C95E80079F0CB /* press_hombro_2@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "press_hombro_2@2x.jpg"; sourceTree = "<group>"; };
+		B4F44A82209C95E90079F0CB /* sentadilla_peso_2@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "sentadilla_peso_2@2x.jpg"; sourceTree = "<group>"; };
+		B4F44A83209C95E90079F0CB /* saltos_cuarta_mov_2@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "saltos_cuarta_mov_2@2x.jpg"; sourceTree = "<group>"; };
+		B4F44A84209C95E90079F0CB /* abdominales_tipo_1@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "abdominales_tipo_1@2x.jpg"; sourceTree = "<group>"; };
+		B4F44A85209C95E90079F0CB /* sentadilla_peso_1@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "sentadilla_peso_1@2x.jpg"; sourceTree = "<group>"; };
+		B4F44A86209C95EA0079F0CB /* fondos_cobra_2@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "fondos_cobra_2@2x.jpg"; sourceTree = "<group>"; };
+		B4F44A87209C95EA0079F0CB /* flexiones_alterne_brazos_2@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "flexiones_alterne_brazos_2@2x.jpg"; sourceTree = "<group>"; };
+		B4F44A88209C95EA0079F0CB /* flexiones_alterne_brazos_1@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "flexiones_alterne_brazos_1@2x.jpg"; sourceTree = "<group>"; };
+		B4F44A89209C95EA0079F0CB /* main_goal_animation_flag_image_ios7@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "main_goal_animation_flag_image_ios7@2x.png"; sourceTree = "<group>"; };
+		B4F44A8A209C95EB0079F0CB /* burpees_militar_1@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "burpees_militar_1@2x.jpg"; sourceTree = "<group>"; };
+		B4F44A8B209C95EB0079F0CB /* dominadas_opcion_2@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "dominadas_opcion_2@2x.jpg"; sourceTree = "<group>"; };
+		B4F44A8C209C95EB0079F0CB /* salto_vertical_2@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "salto_vertical_2@2x.jpg"; sourceTree = "<group>"; };
+		B4F44A8D209C95EB0079F0CB /* fondos_cobra_1@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "fondos_cobra_1@2x.jpg"; sourceTree = "<group>"; };
+		B4F44A8E209C95EC0079F0CB /* fondos_pelota_2@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "fondos_pelota_2@2x.jpg"; sourceTree = "<group>"; };
+		B4F44AA5209C96030079F0CB /* biceps_goma_sentado_1@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "biceps_goma_sentado_1@2x.jpg"; sourceTree = "<group>"; };
+		B4F44AA6209C96030079F0CB /* saltos_vertical_1@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "saltos_vertical_1@2x.jpg"; sourceTree = "<group>"; };
+		B4F44AA7209C96030079F0CB /* biceps_goma_sentado_2@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "biceps_goma_sentado_2@2x.jpg"; sourceTree = "<group>"; };
+		B4F44AA8209C96040079F0CB /* fondos_elevados_1@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "fondos_elevados_1@2x.jpg"; sourceTree = "<group>"; };
+		B4F44AA9209C96040079F0CB /* pendulo Kettle bell_2@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "pendulo Kettle bell_2@2x.jpg"; sourceTree = "<group>"; };
+		B4F44AAA209C96040079F0CB /* press_hombro_45_2@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "press_hombro_45_2@2x.jpg"; sourceTree = "<group>"; };
+		B4F44AAB209C96050079F0CB /* abdominales_cuarta_2@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "abdominales_cuarta_2@2x.jpg"; sourceTree = "<group>"; };
+		B4F44AAC209C96050079F0CB /* abdominales_cuarta_1@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "abdominales_cuarta_1@2x.jpg"; sourceTree = "<group>"; };
+		B4F44AAD209C96050079F0CB /* goma_tubo_detras_espalda_2@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "goma_tubo_detras_espalda_2@2x.jpg"; sourceTree = "<group>"; };
+		B4F44AAE209C96050079F0CB /* fondos_elevados_2@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "fondos_elevados_2@2x.jpg"; sourceTree = "<group>"; };
+		B4F44AAF209C96060079F0CB /* pushup_triceps_1@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "pushup_triceps_1@2x.jpg"; sourceTree = "<group>"; };
+		B4F44AB0209C96060079F0CB /* pushup_triceps_2@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "pushup_triceps_2@2x.jpg"; sourceTree = "<group>"; };
+		B4F44AB1209C96060079F0CB /* goma_tubo_detras_espalda_1@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "goma_tubo_detras_espalda_1@2x.jpg"; sourceTree = "<group>"; };
+		B4F44AB2209C96070079F0CB /* pendulo Kettle bell_1@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "pendulo Kettle bell_1@2x.jpg"; sourceTree = "<group>"; };
+		B4F44AB3209C96070079F0CB /* press_hombro_45_1@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "press_hombro_45_1@2x.jpg"; sourceTree = "<group>"; };
+		B4F44AB4209C96070079F0CB /* saltos_vertical_2@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "saltos_vertical_2@2x.jpg"; sourceTree = "<group>"; };
+		B4F44AC6209C96250079F0CB /* abdominal_corta_doble_rebote_2@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "abdominal_corta_doble_rebote_2@2x.jpg"; sourceTree = "<group>"; };
+		B4F44AC7209C96250079F0CB /* press_militar_1@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "press_militar_1@2x.jpg"; sourceTree = "<group>"; };
+		B4F44AC8209C96250079F0CB /* abdominales_elevando_piernas_2@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "abdominales_elevando_piernas_2@2x.jpg"; sourceTree = "<group>"; };
+		B4F44AC9209C96260079F0CB /* barbell_row_1@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "barbell_row_1@2x.jpg"; sourceTree = "<group>"; };
+		B4F44ACA209C96260079F0CB /* 45_lat_pullDown_1@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "45_lat_pullDown_1@2x.jpg"; sourceTree = "<group>"; };
+		B4F44ACB209C96260079F0CB /* pendulo_kettle_bell_2@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "pendulo_kettle_bell_2@2x.jpg"; sourceTree = "<group>"; };
+		B4F44ACC209C96270079F0CB /* abdominales_elevando_piernas_1@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "abdominales_elevando_piernas_1@2x.jpg"; sourceTree = "<group>"; };
+		B4F44ACD209C96270079F0CB /* fondos_pie_elevado_1@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "fondos_pie_elevado_1@2x.jpg"; sourceTree = "<group>"; };
+		B4F44ACE209C96270079F0CB /* 45_lat_pullDown_2@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "45_lat_pullDown_2@2x.jpg"; sourceTree = "<group>"; };
+		B4F44ACF209C96280079F0CB /* barbell_row_2@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "barbell_row_2@2x.jpg"; sourceTree = "<group>"; };
+		B4F44AD0209C96280079F0CB /* pendulo_kettle_bell_1@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "pendulo_kettle_bell_1@2x.jpg"; sourceTree = "<group>"; };
+		B4F44AD1209C96280079F0CB /* one_arm_snatch_2@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "one_arm_snatch_2@2x.jpg"; sourceTree = "<group>"; };
+		B4F44AD2209C96280079F0CB /* press_militar_2@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "press_militar_2@2x.jpg"; sourceTree = "<group>"; };
+		B4F44AD3209C96290079F0CB /* one_arm_snatch_1@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "one_arm_snatch_1@2x.jpg"; sourceTree = "<group>"; };
+		B4F44AD4209C96290079F0CB /* abdominal_corta_doble_rebote_1@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "abdominal_corta_doble_rebote_1@2x.jpg"; sourceTree = "<group>"; };
+		B4F44AD5209C96290079F0CB /* fondos_pie_elevado_2@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "fondos_pie_elevado_2@2x.jpg"; sourceTree = "<group>"; };
+		B4F44AE7209C96420079F0CB /* press_pajaro_mancuernas_1@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "press_pajaro_mancuernas_1@2x.jpg"; sourceTree = "<group>"; };
+		B4F44AE8209C96420079F0CB /* press_pajaro_mancuernas_2@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "press_pajaro_mancuernas_2@2x.jpg"; sourceTree = "<group>"; };
+		B4F44AE9209C96430079F0CB /* arnold_press_2@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "arnold_press_2@2x.jpg"; sourceTree = "<group>"; };
+		B4F44AEA209C96430079F0CB /* alternating_split_jump_2@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "alternating_split_jump_2@2x.jpg"; sourceTree = "<group>"; };
+		B4F44AEB209C96430079F0CB /* band_press_alterne_2@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "band_press_alterne_2@2x.jpg"; sourceTree = "<group>"; };
+		B4F44AEC209C96430079F0CB /* fondo_band_pushup_1@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "fondo_band_pushup_1@2x.jpg"; sourceTree = "<group>"; };
+		B4F44AED209C96440079F0CB /* fondo_band_pushup_2@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "fondo_band_pushup_2@2x.jpg"; sourceTree = "<group>"; };
+		B4F44AEE209C96440079F0CB /* press_hombro_rodilla_2@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "press_hombro_rodilla_2@2x.jpg"; sourceTree = "<group>"; };
+		B4F44AEF209C96440079F0CB /* arnold_press_1@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "arnold_press_1@2x.jpg"; sourceTree = "<group>"; };
+		B4F44AF0209C96440079F0CB /* brand_press_pecho_1@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "brand_press_pecho_1@2x.jpg"; sourceTree = "<group>"; };
+		B4F44AF1209C96450079F0CB /* band_press_alterne_1@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "band_press_alterne_1@2x.jpg"; sourceTree = "<group>"; };
+		B4F44AF2209C96450079F0CB /* brand_press_pecho_2@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "brand_press_pecho_2@2x.jpg"; sourceTree = "<group>"; };
+		B4F44AF3209C96450079F0CB /* press_hombro_rodilla_1@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "press_hombro_rodilla_1@2x.jpg"; sourceTree = "<group>"; };
+		B4F44AF4209C96450079F0CB /* alternating_split_jump_1@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "alternating_split_jump_1@2x.jpg"; sourceTree = "<group>"; };
+		B4F44B04209C96630079F0CB /* pamplona@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pamplona@2x.png"; sourceTree = "<group>"; };
+		B4F44B05209C96640079F0CB /* canarias@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "canarias@2x.png"; sourceTree = "<group>"; };
+		B4F44B06209C96640079F0CB /* benejuzaralizante@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "benejuzaralizante@2x.png"; sourceTree = "<group>"; };
+		B4F44B07209C96640079F0CB /* granollers@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "granollers@2x.png"; sourceTree = "<group>"; };
+		B4F44B08209C96650079F0CB /* barcelona@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "barcelona@2x.png"; sourceTree = "<group>"; };
+		B4F44B09209C96650079F0CB /* benidorm@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "benidorm@2x.png"; sourceTree = "<group>"; };
+		B4F44B0A209C96650079F0CB /* laspalmas@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "laspalmas@2x.png"; sourceTree = "<group>"; };
+		B4F44B0B209C96660079F0CB /* castelldefels@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "castelldefels@2x.png"; sourceTree = "<group>"; };
+		B4F44B0C209C96660079F0CB /* bierzo@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bierzo@2x.png"; sourceTree = "<group>"; };
+		B4F44B0D209C96660079F0CB /* palmademallorca@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "palmademallorca@2x.png"; sourceTree = "<group>"; };
+		B4F44B0E209C96660079F0CB /* zamora@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "zamora@2x.png"; sourceTree = "<group>"; };
+		B4F44B0F209C96670079F0CB /* cartagenaespana@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cartagenaespana@2x.png"; sourceTree = "<group>"; };
+		B4F44B10209C96670079F0CB /* iznajarcordoba@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iznajarcordoba@2x.png"; sourceTree = "<group>"; };
+		B4F44B11209C96670079F0CB /* algarve@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "algarve@2x.png"; sourceTree = "<group>"; };
+		B4F44B12209C96670079F0CB /* lanuncia@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "lanuncia@2x.png"; sourceTree = "<group>"; };
+		B4F44B13209C96680079F0CB /* viladocondeporto@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "viladocondeporto@2x.png"; sourceTree = "<group>"; };
+		B4F44B14209C96680079F0CB /* ciudadreal@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ciudadreal@2x.png"; sourceTree = "<group>"; };
+		B4F44B15209C96680079F0CB /* sevilla@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sevilla@2x.png"; sourceTree = "<group>"; };
+		B4F44B16209C96690079F0CB /* beniarbeig@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "beniarbeig@2x.png"; sourceTree = "<group>"; };
+		B4F44B17209C96690079F0CB /* castuera@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "castuera@2x.png"; sourceTree = "<group>"; };
+		B4F44B18209C96690079F0CB /* alicante@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "alicante@2x.png"; sourceTree = "<group>"; };
+		B4F44B19209C966A0079F0CB /* elcampello@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "elcampello@2x.png"; sourceTree = "<group>"; };
+		B4F44B1A209C966A0079F0CB /* losyebenes@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "losyebenes@2x.png"; sourceTree = "<group>"; };
+		B4F44B1B209C966A0079F0CB /* canezademanzaneda@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "canezademanzaneda@2x.png"; sourceTree = "<group>"; };
+		B4F44B1C209C966A0079F0CB /* benissa@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "benissa@2x.png"; sourceTree = "<group>"; };
+		B4F44B1D209C966B0079F0CB /* alamedadelasagra@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "alamedadelasagra@2x.png"; sourceTree = "<group>"; };
+		B4F44B1E209C966B0079F0CB /* llavorsilleida@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "llavorsilleida@2x.png"; sourceTree = "<group>"; };
+		B4F44B1F209C966B0079F0CB /* madrid@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "madrid@2x.png"; sourceTree = "<group>"; };
+		B4F44B20209C966C0079F0CB /* pinsequezaragoza@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pinsequezaragoza@2x.png"; sourceTree = "<group>"; };
+		B4F44B21209C966C0079F0CB /* sanpedrodepinatar@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sanpedrodepinatar@2x.png"; sourceTree = "<group>"; };
+		B4F44B22209C966D0079F0CB /* telde@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "telde@2x.png"; sourceTree = "<group>"; };
+		B4F44B23209C966D0079F0CB /* almeria@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "almeria@2x.png"; sourceTree = "<group>"; };
+		B4F44B24209C966D0079F0CB /* santiagodecompostela@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "santiagodecompostela@2x.png"; sourceTree = "<group>"; };
+		B4F44B25209C966D0079F0CB /* lanzarote@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "lanzarote@2x.png"; sourceTree = "<group>"; };
+		B4F44B26209C966E0079F0CB /* antellavalencia@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "antellavalencia@2x.png"; sourceTree = "<group>"; };
+		B4F44B27209C966E0079F0CB /* buitragodelozoya@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "buitragodelozoya@2x.png"; sourceTree = "<group>"; };
+		B4F44B28209C966F0079F0CB /* samilvigo@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "samilvigo@2x.png"; sourceTree = "<group>"; };
+		B4F44B29209C966F0079F0CB /* bunyol@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bunyol@2x.png"; sourceTree = "<group>"; };
+		B4F44B2A209C96700079F0CB /* parquetiernogalvan@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "parquetiernogalvan@2x.jpg"; sourceTree = "<group>"; };
+		B4F44B2B209C96700079F0CB /* tenerife@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tenerife@2x.png"; sourceTree = "<group>"; };
+		B4F44B2C209C96710079F0CB /* pontevedra@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pontevedra@2x.png"; sourceTree = "<group>"; };
+		B4F44B2D209C96710079F0CB /* valencia@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "valencia@2x.png"; sourceTree = "<group>"; };
+		B4F44B2E209C96720079F0CB /* igualada@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "igualada@2x.png"; sourceTree = "<group>"; };
+		B4F44B5F209CB3EE0079F0CB /* iCoSpartan-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iCoSpartan-Bridging-Header.h"; sourceTree = "<group>"; };
+		B4F44B60209CB3EF0079F0CB /* JJMaterialTextfield.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JJMaterialTextfield.m; sourceTree = "<group>"; };
+		B4F44B61209CB3EF0079F0CB /* JJMaterialTextfield.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JJMaterialTextfield.h; sourceTree = "<group>"; };
+		B4F44B63209CB4510079F0CB /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
+		B4F44B64209CB4510079F0CB /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
+		B4F44B66209CB4800079F0CB /* UIColor+HexColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+HexColor.h"; sourceTree = "<group>"; };
+		B4F44B67209CB4800079F0CB /* UIColor+HexColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+HexColor.m"; sourceTree = "<group>"; };
+		B4F44B6A209CCAFA0079F0CB /* SplashViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashViewController.swift; sourceTree = "<group>"; };
+		B4F44B6C209CCB510079F0CB /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		B4F44B6E209CCB5A0079F0CB /* RegistroViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistroViewController.swift; sourceTree = "<group>"; };
+		B4F44B71209CCD600079F0CB /* ThereAreInternet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThereAreInternet.swift; sourceTree = "<group>"; };
+		B4F44B76209CD1650079F0CB /* FormTextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FormTextView.swift; sourceTree = "<group>"; };
+		B4F44B77209CD1660079F0CB /* FormTextView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FormTextView.xib; sourceTree = "<group>"; };
+		B4F44B7A209CD2CC0079F0CB /* ISSignIn.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ISSignIn.swift; sourceTree = "<group>"; };
+		B4F44B7C209CD3270079F0CB /* APIHELPERS.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIHELPERS.swift; sourceTree = "<group>"; };
+		B4F44B7E209CD4370079F0CB /* ISEnumation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ISEnumation.swift; sourceTree = "<group>"; };
+		B4F44B80209CDA8A0079F0CB /* video_Dos.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = video_Dos.mp4; path = src/video_Dos.mp4; sourceTree = SOURCE_ROOT; };
+		B4F44B8220A070880079F0CB /* APIUTILS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIUTILS.swift; sourceTree = "<group>"; };
+		B4F44B8620A0720E0079F0CB /* ListaEntrenamientosTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListaEntrenamientosTableViewController.swift; sourceTree = "<group>"; };
+		B4F44B8820A073E20079F0CB /* MenuLateralTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuLateralTableViewController.swift; sourceTree = "<group>"; };
+		B4F44B8A20A07A440079F0CB /* RateApp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RateApp.swift; sourceTree = "<group>"; };
+		B4F44B8C20A07E500079F0CB /* Nivel1TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Nivel1TableViewController.swift; sourceTree = "<group>"; };
+		B4F44B8E20A07E580079F0CB /* Nivel2TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Nivel2TableViewController.swift; sourceTree = "<group>"; };
+		B4F44B9020A07E620079F0CB /* Nivel3TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Nivel3TableViewController.swift; sourceTree = "<group>"; };
+		B4F44B9220A07E6D0079F0CB /* Nivel4TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Nivel4TableViewController.swift; sourceTree = "<group>"; };
+		B4F44B9520A087C80079F0CB /* CustomCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCell.swift; sourceTree = "<group>"; };
+		B4F44B9720A08B4A0079F0CB /* CustomTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
+		B4F44B9820A08B4A0079F0CB /* CustomTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomTableViewCell.xib; sourceTree = "<group>"; };
+		B4F44B9B20A0B1A30079F0CB /* DetalleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetalleViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B4F44A52209C94A00079F0CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E0407CE867D950D853A89EC /* Pods_iCoSpartan.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		15CF881AE094181D62DCB9BC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5242FC01695129BE26E00F42 /* Pods-iCoSpartan.debug.xcconfig */,
+				68DBB738710C32A047DFDA12 /* Pods-iCoSpartan.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		42C93B04EF90BFCBBFD701BD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				950F03A91CE5C9DF2B374C88 /* Pods_iCoSpartan.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B4F44A4C209C94A00079F0CB = {
+			isa = PBXGroup;
+			children = (
+				B4F44A57209C94A00079F0CB /* iCoSpartan */,
+				B4F44A56209C94A00079F0CB /* Products */,
+				15CF881AE094181D62DCB9BC /* Pods */,
+				42C93B04EF90BFCBBFD701BD /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B4F44A56209C94A00079F0CB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B4F44A55209C94A00079F0CB /* iCoSpartan.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B4F44A57209C94A00079F0CB /* iCoSpartan */ = {
+			isa = PBXGroup;
+			children = (
+				B4F44B70209CCD490079F0CB /* API */,
+				B4F44B69209CCAE60079F0CB /* SECTIONS */,
+				B4F44B74209CD1430079F0CB /* UTILS */,
+				B4F44B03209C96500079F0CB /* CITY */,
+				B4F44AE6209C962F0079F0CB /* NIVEL_4 */,
+				B4F44AC5209C960E0079F0CB /* NIVEL_3 */,
+				B4F44AA4209C95F10079F0CB /* NIVEL_2 */,
+				B4F44A79209C95CE0079F0CB /* NIVEL_1 */,
+				B4F44A6A209C94E00079F0CB /* MODELS */,
+				B4F44A58209C94A00079F0CB /* AppDelegate.swift */,
+				B4F44A5C209C94A00079F0CB /* Main.storyboard */,
+				B4F44A5F209C94A10079F0CB /* Assets.xcassets */,
+				B4F44A61209C94A10079F0CB /* LaunchScreen.storyboard */,
+				B4F44A64209C94A10079F0CB /* Info.plist */,
+			);
+			path = iCoSpartan;
+			sourceTree = "<group>";
+		};
+		B4F44A6A209C94E00079F0CB /* MODELS */ = {
+			isa = PBXGroup;
+			children = (
+				B4F44A73209C95700079F0CB /* calendario.plist */,
+				B4F44A74209C95700079F0CB /* lugaresEntrenamiento.plist */,
+				B4F44A6B209C94F50079F0CB /* spartanLevel1.plist */,
+				B4F44A6D209C94F50079F0CB /* spartanLevel2.plist */,
+				B4F44A6E209C94F50079F0CB /* spartanLevel3.plist */,
+				B4F44A6C209C94F50079F0CB /* spartanLevel4.plist */,
+			);
+			path = MODELS;
+			sourceTree = "<group>";
+		};
+		B4F44A79209C95CE0079F0CB /* NIVEL_1 */ = {
+			isa = PBXGroup;
+			children = (
+				B4F44A84209C95E90079F0CB /* abdominales_tipo_1@2x.jpg */,
+				B4F44A7F209C95E80079F0CB /* abdominales_tipo_2@2x.jpg */,
+				B4F44A8A209C95EB0079F0CB /* burpees_militar_1@2x.jpg */,
+				B4F44A7B209C95E70079F0CB /* burpees_militar_2@2x.jpg */,
+				B4F44A7D209C95E70079F0CB /* dominadas_opcion_1@2x.jpg */,
+				B4F44A8B209C95EB0079F0CB /* dominadas_opcion_2@2x.jpg */,
+				B4F44A88209C95EA0079F0CB /* flexiones_alterne_brazos_1@2x.jpg */,
+				B4F44A87209C95EA0079F0CB /* flexiones_alterne_brazos_2@2x.jpg */,
+				B4F44A8D209C95EB0079F0CB /* fondos_cobra_1@2x.jpg */,
+				B4F44A86209C95EA0079F0CB /* fondos_cobra_2@2x.jpg */,
+				B4F44A80209C95E80079F0CB /* fondos_pelota_1@2x.jpg */,
+				B4F44A8E209C95EC0079F0CB /* fondos_pelota_2@2x.jpg */,
+				B4F44A89209C95EA0079F0CB /* main_goal_animation_flag_image_ios7@2x.png */,
+				B4F44A7E209C95E80079F0CB /* press_hombro_1@2x.jpg */,
+				B4F44A81209C95E80079F0CB /* press_hombro_2@2x.jpg */,
+				B4F44A7A209C95E70079F0CB /* salto_vertical_1@2x.jpg */,
+				B4F44A8C209C95EB0079F0CB /* salto_vertical_2@2x.jpg */,
+				B4F44A7C209C95E70079F0CB /* saltos_cuarta_mov_1@2x.jpg */,
+				B4F44A83209C95E90079F0CB /* saltos_cuarta_mov_2@2x.jpg */,
+				B4F44A85209C95E90079F0CB /* sentadilla_peso_1@2x.jpg */,
+				B4F44A82209C95E90079F0CB /* sentadilla_peso_2@2x.jpg */,
+			);
+			path = NIVEL_1;
+			sourceTree = "<group>";
+		};
+		B4F44AA4209C95F10079F0CB /* NIVEL_2 */ = {
+			isa = PBXGroup;
+			children = (
+				B4F44AAC209C96050079F0CB /* abdominales_cuarta_1@2x.jpg */,
+				B4F44AAB209C96050079F0CB /* abdominales_cuarta_2@2x.jpg */,
+				B4F44AA5209C96030079F0CB /* biceps_goma_sentado_1@2x.jpg */,
+				B4F44AA7209C96030079F0CB /* biceps_goma_sentado_2@2x.jpg */,
+				B4F44AA8209C96040079F0CB /* fondos_elevados_1@2x.jpg */,
+				B4F44AAE209C96050079F0CB /* fondos_elevados_2@2x.jpg */,
+				B4F44AB1209C96060079F0CB /* goma_tubo_detras_espalda_1@2x.jpg */,
+				B4F44AAD209C96050079F0CB /* goma_tubo_detras_espalda_2@2x.jpg */,
+				B4F44AB2209C96070079F0CB /* pendulo Kettle bell_1@2x.jpg */,
+				B4F44AA9209C96040079F0CB /* pendulo Kettle bell_2@2x.jpg */,
+				B4F44AB3209C96070079F0CB /* press_hombro_45_1@2x.jpg */,
+				B4F44AAA209C96040079F0CB /* press_hombro_45_2@2x.jpg */,
+				B4F44AAF209C96060079F0CB /* pushup_triceps_1@2x.jpg */,
+				B4F44AB0209C96060079F0CB /* pushup_triceps_2@2x.jpg */,
+				B4F44AA6209C96030079F0CB /* saltos_vertical_1@2x.jpg */,
+				B4F44AB4209C96070079F0CB /* saltos_vertical_2@2x.jpg */,
+			);
+			path = NIVEL_2;
+			sourceTree = "<group>";
+		};
+		B4F44AC5209C960E0079F0CB /* NIVEL_3 */ = {
+			isa = PBXGroup;
+			children = (
+				B4F44ACA209C96260079F0CB /* 45_lat_pullDown_1@2x.jpg */,
+				B4F44ACE209C96270079F0CB /* 45_lat_pullDown_2@2x.jpg */,
+				B4F44AD4209C96290079F0CB /* abdominal_corta_doble_rebote_1@2x.jpg */,
+				B4F44AC6209C96250079F0CB /* abdominal_corta_doble_rebote_2@2x.jpg */,
+				B4F44ACC209C96270079F0CB /* abdominales_elevando_piernas_1@2x.jpg */,
+				B4F44AC8209C96250079F0CB /* abdominales_elevando_piernas_2@2x.jpg */,
+				B4F44AC9209C96260079F0CB /* barbell_row_1@2x.jpg */,
+				B4F44ACF209C96280079F0CB /* barbell_row_2@2x.jpg */,
+				B4F44ACD209C96270079F0CB /* fondos_pie_elevado_1@2x.jpg */,
+				B4F44AD5209C96290079F0CB /* fondos_pie_elevado_2@2x.jpg */,
+				B4F44AD3209C96290079F0CB /* one_arm_snatch_1@2x.jpg */,
+				B4F44AD1209C96280079F0CB /* one_arm_snatch_2@2x.jpg */,
+				B4F44AD0209C96280079F0CB /* pendulo_kettle_bell_1@2x.jpg */,
+				B4F44ACB209C96260079F0CB /* pendulo_kettle_bell_2@2x.jpg */,
+				B4F44AC7209C96250079F0CB /* press_militar_1@2x.jpg */,
+				B4F44AD2209C96280079F0CB /* press_militar_2@2x.jpg */,
+			);
+			path = NIVEL_3;
+			sourceTree = "<group>";
+		};
+		B4F44AE6209C962F0079F0CB /* NIVEL_4 */ = {
+			isa = PBXGroup;
+			children = (
+				B4F44AF4209C96450079F0CB /* alternating_split_jump_1@2x.jpg */,
+				B4F44AEA209C96430079F0CB /* alternating_split_jump_2@2x.jpg */,
+				B4F44AEF209C96440079F0CB /* arnold_press_1@2x.jpg */,
+				B4F44AE9209C96430079F0CB /* arnold_press_2@2x.jpg */,
+				B4F44AF1209C96450079F0CB /* band_press_alterne_1@2x.jpg */,
+				B4F44AEB209C96430079F0CB /* band_press_alterne_2@2x.jpg */,
+				B4F44AF0209C96440079F0CB /* brand_press_pecho_1@2x.jpg */,
+				B4F44AF2209C96450079F0CB /* brand_press_pecho_2@2x.jpg */,
+				B4F44AEC209C96430079F0CB /* fondo_band_pushup_1@2x.jpg */,
+				B4F44AED209C96440079F0CB /* fondo_band_pushup_2@2x.jpg */,
+				B4F44AF3209C96450079F0CB /* press_hombro_rodilla_1@2x.jpg */,
+				B4F44AEE209C96440079F0CB /* press_hombro_rodilla_2@2x.jpg */,
+				B4F44AE7209C96420079F0CB /* press_pajaro_mancuernas_1@2x.jpg */,
+				B4F44AE8209C96420079F0CB /* press_pajaro_mancuernas_2@2x.jpg */,
+			);
+			path = NIVEL_4;
+			sourceTree = "<group>";
+		};
+		B4F44B03209C96500079F0CB /* CITY */ = {
+			isa = PBXGroup;
+			children = (
+				B4F44B1D209C966B0079F0CB /* alamedadelasagra@2x.png */,
+				B4F44B11209C96670079F0CB /* algarve@2x.png */,
+				B4F44B18209C96690079F0CB /* alicante@2x.png */,
+				B4F44B23209C966D0079F0CB /* almeria@2x.png */,
+				B4F44B26209C966E0079F0CB /* antellavalencia@2x.png */,
+				B4F44B08209C96650079F0CB /* barcelona@2x.png */,
+				B4F44B06209C96640079F0CB /* benejuzaralizante@2x.png */,
+				B4F44B16209C96690079F0CB /* beniarbeig@2x.png */,
+				B4F44B09209C96650079F0CB /* benidorm@2x.png */,
+				B4F44B1C209C966A0079F0CB /* benissa@2x.png */,
+				B4F44B0C209C96660079F0CB /* bierzo@2x.png */,
+				B4F44B27209C966E0079F0CB /* buitragodelozoya@2x.png */,
+				B4F44B29209C966F0079F0CB /* bunyol@2x.png */,
+				B4F44B05209C96640079F0CB /* canarias@2x.png */,
+				B4F44B1B209C966A0079F0CB /* canezademanzaneda@2x.png */,
+				B4F44B0F209C96670079F0CB /* cartagenaespana@2x.png */,
+				B4F44B0B209C96660079F0CB /* castelldefels@2x.png */,
+				B4F44B17209C96690079F0CB /* castuera@2x.png */,
+				B4F44B14209C96680079F0CB /* ciudadreal@2x.png */,
+				B4F44B19209C966A0079F0CB /* elcampello@2x.png */,
+				B4F44B07209C96640079F0CB /* granollers@2x.png */,
+				B4F44B2E209C96720079F0CB /* igualada@2x.png */,
+				B4F44B10209C96670079F0CB /* iznajarcordoba@2x.png */,
+				B4F44B12209C96670079F0CB /* lanuncia@2x.png */,
+				B4F44B25209C966D0079F0CB /* lanzarote@2x.png */,
+				B4F44B0A209C96650079F0CB /* laspalmas@2x.png */,
+				B4F44B1E209C966B0079F0CB /* llavorsilleida@2x.png */,
+				B4F44B1A209C966A0079F0CB /* losyebenes@2x.png */,
+				B4F44B1F209C966B0079F0CB /* madrid@2x.png */,
+				B4F44B0D209C96660079F0CB /* palmademallorca@2x.png */,
+				B4F44B04209C96630079F0CB /* pamplona@2x.png */,
+				B4F44B2A209C96700079F0CB /* parquetiernogalvan@2x.jpg */,
+				B4F44B20209C966C0079F0CB /* pinsequezaragoza@2x.png */,
+				B4F44B2C209C96710079F0CB /* pontevedra@2x.png */,
+				B4F44B28209C966F0079F0CB /* samilvigo@2x.png */,
+				B4F44B21209C966C0079F0CB /* sanpedrodepinatar@2x.png */,
+				B4F44B24209C966D0079F0CB /* santiagodecompostela@2x.png */,
+				B4F44B15209C96680079F0CB /* sevilla@2x.png */,
+				B4F44B22209C966D0079F0CB /* telde@2x.png */,
+				B4F44B2B209C96700079F0CB /* tenerife@2x.png */,
+				B4F44B2D209C96710079F0CB /* valencia@2x.png */,
+				B4F44B13209C96680079F0CB /* viladocondeporto@2x.png */,
+				B4F44B0E209C96660079F0CB /* zamora@2x.png */,
+			);
+			path = CITY;
+			sourceTree = "<group>";
+		};
+		B4F44B5C209CB3AB0079F0CB /* COMMON */ = {
+			isa = PBXGroup;
+			children = (
+				B4F44B75209CD1560079F0CB /* New Group */,
+				B4F44B73209CD1330079F0CB /* video */,
+				B4F44B61209CB3EF0079F0CB /* JJMaterialTextfield.h */,
+				B4F44B60209CB3EF0079F0CB /* JJMaterialTextfield.m */,
+				B4F44B63209CB4510079F0CB /* SWRevealViewController.h */,
+				B4F44B64209CB4510079F0CB /* SWRevealViewController.m */,
+				B4F44B5F209CB3EE0079F0CB /* iCoSpartan-Bridging-Header.h */,
+				B4F44B66209CB4800079F0CB /* UIColor+HexColor.h */,
+				B4F44B67209CB4800079F0CB /* UIColor+HexColor.m */,
+			);
+			path = COMMON;
+			sourceTree = "<group>";
+		};
+		B4F44B69209CCAE60079F0CB /* SECTIONS */ = {
+			isa = PBXGroup;
+			children = (
+				B4F44B9420A087A00079F0CB /* Cells */,
+				B4F44B8520A071540079F0CB /* Views_Controllers */,
+				B4F44B8420A0712B0079F0CB /* Login_Registro */,
+			);
+			path = SECTIONS;
+			sourceTree = "<group>";
+		};
+		B4F44B70209CCD490079F0CB /* API */ = {
+			isa = PBXGroup;
+			children = (
+				B4F44B8A20A07A440079F0CB /* RateApp.swift */,
+				B4F44B71209CCD600079F0CB /* ThereAreInternet.swift */,
+				B4F44B7A209CD2CC0079F0CB /* ISSignIn.swift */,
+				B4F44B7C209CD3270079F0CB /* APIHELPERS.swift */,
+				B4F44B8220A070880079F0CB /* APIUTILS.swift */,
+				B4F44B7E209CD4370079F0CB /* ISEnumation.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		B4F44B73209CD1330079F0CB /* video */ = {
+			isa = PBXGroup;
+			children = (
+				B4F44B80209CDA8A0079F0CB /* video_Dos.mp4 */,
+			);
+			name = video;
+			sourceTree = "<group>";
+		};
+		B4F44B74209CD1430079F0CB /* UTILS */ = {
+			isa = PBXGroup;
+			children = (
+				B4F44B5C209CB3AB0079F0CB /* COMMON */,
+			);
+			path = UTILS;
+			sourceTree = "<group>";
+		};
+		B4F44B75209CD1560079F0CB /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+				B4F44B76209CD1650079F0CB /* FormTextView.swift */,
+				B4F44B77209CD1660079F0CB /* FormTextView.xib */,
+			);
+			name = "New Group";
+			sourceTree = "<group>";
+		};
+		B4F44B8420A0712B0079F0CB /* Login_Registro */ = {
+			isa = PBXGroup;
+			children = (
+				B4F44B6A209CCAFA0079F0CB /* SplashViewController.swift */,
+				B4F44B6C209CCB510079F0CB /* LoginViewController.swift */,
+				B4F44B6E209CCB5A0079F0CB /* RegistroViewController.swift */,
+			);
+			path = Login_Registro;
+			sourceTree = "<group>";
+		};
+		B4F44B8520A071540079F0CB /* Views_Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				B4F44B8620A0720E0079F0CB /* ListaEntrenamientosTableViewController.swift */,
+				B4F44B8820A073E20079F0CB /* MenuLateralTableViewController.swift */,
+				B4F44B8C20A07E500079F0CB /* Nivel1TableViewController.swift */,
+				B4F44B8E20A07E580079F0CB /* Nivel2TableViewController.swift */,
+				B4F44B9020A07E620079F0CB /* Nivel3TableViewController.swift */,
+				B4F44B9220A07E6D0079F0CB /* Nivel4TableViewController.swift */,
+				B4F44B9B20A0B1A30079F0CB /* DetalleViewController.swift */,
+			);
+			path = Views_Controllers;
+			sourceTree = "<group>";
+		};
+		B4F44B9420A087A00079F0CB /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				B4F44B9520A087C80079F0CB /* CustomCell.swift */,
+				B4F44B9720A08B4A0079F0CB /* CustomTableViewCell.swift */,
+				B4F44B9820A08B4A0079F0CB /* CustomTableViewCell.xib */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B4F44A54209C94A00079F0CB /* iCoSpartan */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B4F44A67209C94A10079F0CB /* Build configuration list for PBXNativeTarget "iCoSpartan" */;
+			buildPhases = (
+				AC865438EC2E3EC1811A9ACC /* [CP] Check Pods Manifest.lock */,
+				B4F44A51209C94A00079F0CB /* Sources */,
+				B4F44A52209C94A00079F0CB /* Frameworks */,
+				B4F44A53209C94A00079F0CB /* Resources */,
+				19A314AF6AF08E550898D7C8 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iCoSpartan;
+			productName = iCoSpartan_Swift;
+			productReference = B4F44A55209C94A00079F0CB /* iCoSpartan.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B4F44A4D209C94A00079F0CB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = icologic;
+				TargetAttributes = {
+					B4F44A54209C94A00079F0CB = {
+						CreatedOnToolsVersion = 9.3;
+						LastSwiftMigration = 0930;
+					};
+				};
+			};
+			buildConfigurationList = B4F44A50209C94A00079F0CB /* Build configuration list for PBXProject "iCoSpartan" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B4F44A4C209C94A00079F0CB;
+			productRefGroup = B4F44A56209C94A00079F0CB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B4F44A54209C94A00079F0CB /* iCoSpartan */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B4F44A53209C94A00079F0CB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B4F44B79209CD1660079F0CB /* FormTextView.xib in Resources */,
+				B4F44ADC209C96290079F0CB /* abdominales_elevando_piernas_1@2x.jpg in Resources */,
+				B4F44B3C209C96720079F0CB /* algarve@2x.png in Resources */,
+				B4F44A9C209C95EC0079F0CB /* flexiones_alterne_brazos_2@2x.jpg in Resources */,
+				B4F44B38209C96720079F0CB /* palmademallorca@2x.png in Resources */,
+				B4F44B42209C96720079F0CB /* castuera@2x.png in Resources */,
+				B4F44A99209C95EC0079F0CB /* abdominales_tipo_1@2x.jpg in Resources */,
+				B4F44B4E209C96720079F0CB /* almeria@2x.png in Resources */,
+				B4F44B31209C96720079F0CB /* benejuzaralizante@2x.png in Resources */,
+				B4F44A76209C95710079F0CB /* lugaresEntrenamiento.plist in Resources */,
+				B4F44A9D209C95EC0079F0CB /* flexiones_alterne_brazos_1@2x.jpg in Resources */,
+				B4F44ADD209C96290079F0CB /* fondos_pie_elevado_1@2x.jpg in Resources */,
+				B4F44B45209C96720079F0CB /* losyebenes@2x.png in Resources */,
+				B4F44B32209C96720079F0CB /* granollers@2x.png in Resources */,
+				B4F44B3A209C96720079F0CB /* cartagenaespana@2x.png in Resources */,
+				B4F44A97209C95EC0079F0CB /* sentadilla_peso_2@2x.jpg in Resources */,
+				B4F44AC4209C96070079F0CB /* saltos_vertical_2@2x.jpg in Resources */,
+				B4F44AD6209C96290079F0CB /* abdominal_corta_doble_rebote_2@2x.jpg in Resources */,
+				B4F44A94209C95EC0079F0CB /* abdominales_tipo_2@2x.jpg in Resources */,
+				B4F44A63209C94A10079F0CB /* LaunchScreen.storyboard in Resources */,
+				B4F44AB5209C96070079F0CB /* biceps_goma_sentado_1@2x.jpg in Resources */,
+				B4F44B30209C96720079F0CB /* canarias@2x.png in Resources */,
+				B4F44AE1209C96290079F0CB /* one_arm_snatch_2@2x.jpg in Resources */,
+				B4F44B36209C96720079F0CB /* castelldefels@2x.png in Resources */,
+				B4F44AD9209C96290079F0CB /* barbell_row_1@2x.jpg in Resources */,
+				B4F44AE2209C96290079F0CB /* press_militar_2@2x.jpg in Resources */,
+				B4F44ADE209C96290079F0CB /* 45_lat_pullDown_2@2x.jpg in Resources */,
+				B4F44AE5209C96290079F0CB /* fondos_pie_elevado_2@2x.jpg in Resources */,
+				B4F44AFF209C96460079F0CB /* band_press_alterne_1@2x.jpg in Resources */,
+				B4F44AA0209C95EC0079F0CB /* dominadas_opcion_2@2x.jpg in Resources */,
+				B4F44B02209C96460079F0CB /* alternating_split_jump_1@2x.jpg in Resources */,
+				B4F44ABA209C96070079F0CB /* press_hombro_45_2@2x.jpg in Resources */,
+				B4F44B81209CDA8B0079F0CB /* video_Dos.mp4 in Resources */,
+				B4F44B55209C96720079F0CB /* parquetiernogalvan@2x.jpg in Resources */,
+				B4F44A60209C94A10079F0CB /* Assets.xcassets in Resources */,
+				B4F44B35209C96720079F0CB /* laspalmas@2x.png in Resources */,
+				B4F44B47209C96720079F0CB /* benissa@2x.png in Resources */,
+				B4F44ADF209C96290079F0CB /* barbell_row_2@2x.jpg in Resources */,
+				B4F44AD7209C96290079F0CB /* press_militar_1@2x.jpg in Resources */,
+				B4F44AC1209C96070079F0CB /* goma_tubo_detras_espalda_1@2x.jpg in Resources */,
+				B4F44AB8209C96070079F0CB /* fondos_elevados_1@2x.jpg in Resources */,
+				B4F44B41209C96720079F0CB /* beniarbeig@2x.png in Resources */,
+				B4F44AC3209C96070079F0CB /* press_hombro_45_1@2x.jpg in Resources */,
+				B4F44B57209C96720079F0CB /* pontevedra@2x.png in Resources */,
+				B4F44A92209C95EC0079F0CB /* dominadas_opcion_1@2x.jpg in Resources */,
+				B4F44B4B209C96720079F0CB /* pinsequezaragoza@2x.png in Resources */,
+				B4F44B3E209C96720079F0CB /* viladocondeporto@2x.png in Resources */,
+				B4F44A96209C95EC0079F0CB /* press_hombro_2@2x.jpg in Resources */,
+				B4F44B34209C96720079F0CB /* benidorm@2x.png in Resources */,
+				B4F44B48209C96720079F0CB /* alamedadelasagra@2x.png in Resources */,
+				B4F44B53209C96720079F0CB /* samilvigo@2x.png in Resources */,
+				B4F44A9B209C95EC0079F0CB /* fondos_cobra_2@2x.jpg in Resources */,
+				B4F44B59209C96720079F0CB /* igualada@2x.png in Resources */,
+				B4F44AFE209C96460079F0CB /* brand_press_pecho_1@2x.jpg in Resources */,
+				B4F44B4D209C96720079F0CB /* telde@2x.png in Resources */,
+				B4F44AE4209C96290079F0CB /* abdominal_corta_doble_rebote_1@2x.jpg in Resources */,
+				B4F44AC2209C96070079F0CB /* pendulo Kettle bell_1@2x.jpg in Resources */,
+				B4F44B4C209C96720079F0CB /* sanpedrodepinatar@2x.png in Resources */,
+				B4F44B43209C96720079F0CB /* alicante@2x.png in Resources */,
+				B4F44B37209C96720079F0CB /* bierzo@2x.png in Resources */,
+				B4F44A9A209C95EC0079F0CB /* sentadilla_peso_1@2x.jpg in Resources */,
+				B4F44B39209C96720079F0CB /* zamora@2x.png in Resources */,
+				B4F44B52209C96720079F0CB /* buitragodelozoya@2x.png in Resources */,
+				B4F44A5E209C94A00079F0CB /* Main.storyboard in Resources */,
+				B4F44AFC209C96460079F0CB /* press_hombro_rodilla_2@2x.jpg in Resources */,
+				B4F44AF8209C96460079F0CB /* alternating_split_jump_2@2x.jpg in Resources */,
+				B4F44AFB209C96460079F0CB /* fondo_band_pushup_2@2x.jpg in Resources */,
+				B4F44ADA209C96290079F0CB /* 45_lat_pullDown_1@2x.jpg in Resources */,
+				B4F44B50209C96720079F0CB /* lanzarote@2x.png in Resources */,
+				B4F44B51209C96720079F0CB /* antellavalencia@2x.png in Resources */,
+				B4F44B3D209C96720079F0CB /* lanuncia@2x.png in Resources */,
+				B4F44ABB209C96070079F0CB /* abdominales_cuarta_2@2x.jpg in Resources */,
+				B4F44B4A209C96720079F0CB /* madrid@2x.png in Resources */,
+				B4F44A9E209C95EC0079F0CB /* main_goal_animation_flag_image_ios7@2x.png in Resources */,
+				B4F44AB6209C96070079F0CB /* saltos_vertical_1@2x.jpg in Resources */,
+				B4F44ABD209C96070079F0CB /* goma_tubo_detras_espalda_2@2x.jpg in Resources */,
+				B4F44B54209C96720079F0CB /* bunyol@2x.png in Resources */,
+				B4F44B33209C96720079F0CB /* barcelona@2x.png in Resources */,
+				B4F44AA2209C95EC0079F0CB /* fondos_cobra_1@2x.jpg in Resources */,
+				B4F44A9F209C95EC0079F0CB /* burpees_militar_1@2x.jpg in Resources */,
+				B4F44B40209C96720079F0CB /* sevilla@2x.png in Resources */,
+				B4F44AE3209C96290079F0CB /* one_arm_snatch_1@2x.jpg in Resources */,
+				B4F44AD8209C96290079F0CB /* abdominales_elevando_piernas_2@2x.jpg in Resources */,
+				B4F44B2F209C96720079F0CB /* pamplona@2x.png in Resources */,
+				B4F44ABF209C96070079F0CB /* pushup_triceps_1@2x.jpg in Resources */,
+				B4F44ABC209C96070079F0CB /* abdominales_cuarta_1@2x.jpg in Resources */,
+				B4F44B49209C96720079F0CB /* llavorsilleida@2x.png in Resources */,
+				B4F44A98209C95EC0079F0CB /* saltos_cuarta_mov_2@2x.jpg in Resources */,
+				B4F44A90209C95EC0079F0CB /* burpees_militar_2@2x.jpg in Resources */,
+				B4F44A8F209C95EC0079F0CB /* salto_vertical_1@2x.jpg in Resources */,
+				B4F44B01209C96460079F0CB /* press_hombro_rodilla_1@2x.jpg in Resources */,
+				B4F44B44209C96720079F0CB /* elcampello@2x.png in Resources */,
+				B4F44B9A20A08B4A0079F0CB /* CustomTableViewCell.xib in Resources */,
+				B4F44A72209C94F50079F0CB /* spartanLevel3.plist in Resources */,
+				B4F44AF9209C96460079F0CB /* band_press_alterne_2@2x.jpg in Resources */,
+				B4F44AC0209C96070079F0CB /* pushup_triceps_2@2x.jpg in Resources */,
+				B4F44ADB209C96290079F0CB /* pendulo_kettle_bell_2@2x.jpg in Resources */,
+				B4F44B58209C96720079F0CB /* valencia@2x.png in Resources */,
+				B4F44B4F209C96720079F0CB /* santiagodecompostela@2x.png in Resources */,
+				B4F44A75209C95710079F0CB /* calendario.plist in Resources */,
+				B4F44B46209C96720079F0CB /* canezademanzaneda@2x.png in Resources */,
+				B4F44ABE209C96070079F0CB /* fondos_elevados_2@2x.jpg in Resources */,
+				B4F44AFA209C96460079F0CB /* fondo_band_pushup_1@2x.jpg in Resources */,
+				B4F44AA1209C95EC0079F0CB /* salto_vertical_2@2x.jpg in Resources */,
+				B4F44AA3209C95EC0079F0CB /* fondos_pelota_2@2x.jpg in Resources */,
+				B4F44AE0209C96290079F0CB /* pendulo_kettle_bell_1@2x.jpg in Resources */,
+				B4F44AF7209C96460079F0CB /* arnold_press_2@2x.jpg in Resources */,
+				B4F44AF5209C96460079F0CB /* press_pajaro_mancuernas_1@2x.jpg in Resources */,
+				B4F44AB9209C96070079F0CB /* pendulo Kettle bell_2@2x.jpg in Resources */,
+				B4F44A70209C94F50079F0CB /* spartanLevel4.plist in Resources */,
+				B4F44A91209C95EC0079F0CB /* saltos_cuarta_mov_1@2x.jpg in Resources */,
+				B4F44A95209C95EC0079F0CB /* fondos_pelota_1@2x.jpg in Resources */,
+				B4F44AB7209C96070079F0CB /* biceps_goma_sentado_2@2x.jpg in Resources */,
+				B4F44A93209C95EC0079F0CB /* press_hombro_1@2x.jpg in Resources */,
+				B4F44B3B209C96720079F0CB /* iznajarcordoba@2x.png in Resources */,
+				B4F44A71209C94F50079F0CB /* spartanLevel2.plist in Resources */,
+				B4F44B56209C96720079F0CB /* tenerife@2x.png in Resources */,
+				B4F44AFD209C96460079F0CB /* arnold_press_1@2x.jpg in Resources */,
+				B4F44B3F209C96720079F0CB /* ciudadreal@2x.png in Resources */,
+				B4F44B00209C96460079F0CB /* brand_press_pecho_2@2x.jpg in Resources */,
+				B4F44AF6209C96460079F0CB /* press_pajaro_mancuernas_2@2x.jpg in Resources */,
+				B4F44A6F209C94F50079F0CB /* spartanLevel1.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		19A314AF6AF08E550898D7C8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-iCoSpartan/Pods-iCoSpartan-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Bolts/Bolts.framework",
+				"${BUILT_PRODUCTS_DIR}/Parse/Parse.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Bolts.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Parse.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iCoSpartan/Pods-iCoSpartan-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AC865438EC2E3EC1811A9ACC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-iCoSpartan-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B4F44A51209C94A00079F0CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B4F44B6D209CCB510079F0CB /* LoginViewController.swift in Sources */,
+				B4F44B78209CD1660079F0CB /* FormTextView.swift in Sources */,
+				B4F44B9920A08B4A0079F0CB /* CustomTableViewCell.swift in Sources */,
+				B4F44B62209CB3EF0079F0CB /* JJMaterialTextfield.m in Sources */,
+				B4F44B9320A07E6D0079F0CB /* Nivel4TableViewController.swift in Sources */,
+				B4F44B68209CB4800079F0CB /* UIColor+HexColor.m in Sources */,
+				B4F44A59209C94A00079F0CB /* AppDelegate.swift in Sources */,
+				B4F44B8B20A07A440079F0CB /* RateApp.swift in Sources */,
+				B4F44B7B209CD2CC0079F0CB /* ISSignIn.swift in Sources */,
+				B4F44B7D209CD3270079F0CB /* APIHELPERS.swift in Sources */,
+				B4F44B8D20A07E500079F0CB /* Nivel1TableViewController.swift in Sources */,
+				B4F44B8F20A07E580079F0CB /* Nivel2TableViewController.swift in Sources */,
+				B4F44B8720A0720E0079F0CB /* ListaEntrenamientosTableViewController.swift in Sources */,
+				B4F44B8920A073E20079F0CB /* MenuLateralTableViewController.swift in Sources */,
+				B4F44B6F209CCB5A0079F0CB /* RegistroViewController.swift in Sources */,
+				B4F44B9C20A0B1A30079F0CB /* DetalleViewController.swift in Sources */,
+				B4F44B8320A070880079F0CB /* APIUTILS.swift in Sources */,
+				B4F44B7F209CD4370079F0CB /* ISEnumation.swift in Sources */,
+				B4F44B65209CB4510079F0CB /* SWRevealViewController.m in Sources */,
+				B4F44B9120A07E620079F0CB /* Nivel3TableViewController.swift in Sources */,
+				B4F44B6B209CCAFA0079F0CB /* SplashViewController.swift in Sources */,
+				B4F44B9620A087C80079F0CB /* CustomCell.swift in Sources */,
+				B4F44B72209CCD600079F0CB /* ThereAreInternet.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B4F44A5C209C94A00079F0CB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B4F44A5D209C94A00079F0CB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B4F44A61209C94A10079F0CB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B4F44A62209C94A10079F0CB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B4F44A65209C94A10079F0CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B4F44A66209C94A10079F0CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B4F44A68209C94A10079F0CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5242FC01695129BE26E00F42 /* Pods-iCoSpartan.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = 2C7W4RF846;
+				INFOPLIST_FILE = "$(SRCROOT)/iCoSpartan/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.icologic.iOS.iCoSpartan;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "iCoSpartan/UTILS/COMMON/iCoSpartan-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B4F44A69209C94A10079F0CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 68DBB738710C32A047DFDA12 /* Pods-iCoSpartan.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "$(SRCROOT)/iCoSpartan/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.icologic.iOS.iCoSpartan;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "iCoSpartan/UTILS/COMMON/iCoSpartan-Bridging-Header.h";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B4F44A50209C94A00079F0CB /* Build configuration list for PBXProject "iCoSpartan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B4F44A65209C94A10079F0CB /* Debug */,
+				B4F44A66209C94A10079F0CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B4F44A67209C94A10079F0CB /* Build configuration list for PBXNativeTarget "iCoSpartan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B4F44A68209C94A10079F0CB /* Debug */,
+				B4F44A69209C94A10079F0CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B4F44A4D209C94A00079F0CB /* Project object */;
+}

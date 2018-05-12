@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12121" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Repsol-Regular.ttf">
+            <string>Repsol</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="FormTextView" customModule="canalmovil_swift" customModuleProvider="target">
+            <connections>
+                <outlet property="contentView" destination="9N6-yw-f7l" id="kH7-uQ-vUE"/>
+                <outlet property="showButton" destination="kk1-iR-eyL" id="2iy-Dz-K7Y"/>
+                <outlet property="textField" destination="e4b-zx-YFk" id="q5U-ma-3tE"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="9N6-yw-f7l">
+            <rect key="frame" x="0.0" y="0.0" width="321" height="75"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="E-mail" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="e4b-zx-YFk" customClass="JJMaterialTextfield">
+                    <rect key="frame" x="16" y="29" width="290" height="32"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="32" id="D9T-6J-MVy"/>
+                    </constraints>
+                    <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    <fontDescription key="fontDescription" name="Repsol" family="Repsol" pointSize="18"/>
+                    <textInputTraits key="textInputTraits" autocorrectionType="no" spellCheckingType="no"/>
+                    <connections>
+                        <outlet property="delegate" destination="-1" id="wOl-Of-EUT"/>
+                    </connections>
+                </textField>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kk1-iR-eyL">
+                    <rect key="frame" x="278" y="32" width="27" height="27"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="27" id="WBk-H0-QPe"/>
+                        <constraint firstAttribute="width" constant="27" id="mVf-ih-xMc"/>
+                    </constraints>
+                    <state key="normal" image="login_ico_view"/>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="1" green="0.30652480518379766" blue="0.14638052805155133" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="kk1-iR-eyL" firstAttribute="centerY" secondItem="e4b-zx-YFk" secondAttribute="centerY" id="CPG-4M-URv"/>
+                <constraint firstAttribute="trailing" secondItem="e4b-zx-YFk" secondAttribute="trailing" constant="15" id="CaA-F3-jga"/>
+                <constraint firstAttribute="trailing" secondItem="kk1-iR-eyL" secondAttribute="trailing" constant="16" id="RGu-tI-yU7"/>
+                <constraint firstItem="e4b-zx-YFk" firstAttribute="leading" secondItem="9N6-yw-f7l" secondAttribute="leading" constant="16" id="uPe-Uw-CNg"/>
+                <constraint firstItem="e4b-zx-YFk" firstAttribute="top" secondItem="9N6-yw-f7l" secondAttribute="top" constant="29" id="uVE-4G-OHV"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <nil key="simulatedTopBarMetrics"/>
+            <nil key="simulatedBottomBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="-86.5" y="-624.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="login_ico_view" width="27" height="27"/>
+    </resources>
+</document>

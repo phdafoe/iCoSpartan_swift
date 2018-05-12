@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>title</key>
+		<string>MADRID CAPITAL PARQUE TIERNO GALVÁN </string>
+		<key>description</key>
+		<string>Área con desnivel entre 45º a 62º, con multiples zonas de obstáculos, hay fuentes de agua y sombra ya que cuenta con muchas zonas verdes de árboles grandes</string>
+		<key>city</key>
+		<string>MADRID ZONA PLANETARIO</string>
+		<key>parkImageName</key>
+		<string>parquetiernogalvan@2x.jpg</string>
+		<key>numberParkImageName</key>
+		<string>numero1@2x.png</string>
+		<key>parkBigImageName</key>
+		<string>BASE_TIERNO_GALVAN@2x.png</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Proximamente en Barcelona!</string>
+		<key>description</key>
+		<string></string>
+		<key>city</key>
+		<string>Barcelona</string>
+		<key>parkImageName</key>
+		<string>disculpamolestias_1@2x.jpg</string>
+		<key>numberParkImageName</key>
+		<string></string>
+		<key>parkBigImageName</key>
+		<string>DisculpaMolestias@2x.png</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Proximamente en Valencia!</string>
+		<key>description</key>
+		<string></string>
+		<key>city</key>
+		<string>Valencia</string>
+		<key>parkImageName</key>
+		<string>disculpamolestias_1@2x.jpg</string>
+		<key>numberParkImageName</key>
+		<string></string>
+		<key>parkBigImageName</key>
+		<string>DisculpaMolestias@2x.png</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Proximamente en Sevilla!</string>
+		<key>description</key>
+		<string></string>
+		<key>city</key>
+		<string>Sevilla</string>
+		<key>parkImageName</key>
+		<string>disculpamolestias_1@2x.jpg</string>
+		<key>numberParkImageName</key>
+		<string></string>
+		<key>parkBigImageName</key>
+		<string>DisculpaMolestias@2x.png</string>
+	</dict>
+</array>
+</plist>
